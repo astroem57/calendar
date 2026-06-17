@@ -1,0 +1,16 @@
+How to use git:
+
+When you add some code that works:
+- Go to terminal
+- git add .
+- git commit -m "describe the change you made"
+- git push
+
+Project ID:
+Use chatGPT to break down the information, ask it on specific
+topics but do not get it to make the code for you.
+
+Make sure you understand things, get chatGPT to explain
+
+Build in stages, comment EVERYTHING you do so you know
+what it does later
