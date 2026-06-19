@@ -14,3 +14,4 @@ class Event:
 
 event = Event("Meeting", "January 1st", 8, 4)
 print(event.start_time, "to", event.end_time())
+print(event.day)
