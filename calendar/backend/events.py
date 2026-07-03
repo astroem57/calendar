@@ -1,4 +1,3 @@
-
 # make a class for events that includes key details
 # make it so that if the user only knows end time or duration, the calendar can calculate both
 #make it so that the user has to input an end time or duration
@@ -17,11 +16,6 @@ class Event:
             self.end_time = end_time
             self.duration = duration
             self.duration = end_time - start_time
-#test
-event = Event("meeting", 1, "blah", 12, 13)
 
-print(event.duration)
 
-        
-            
-    
+
