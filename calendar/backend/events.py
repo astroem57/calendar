@@ -6,7 +6,7 @@ class Event:
         self.title = title
         self.date = date
         self.start_time = start_time
-        self.description = description
+        self.description = description 
 #if the duration does not equal none then find end time but adding duration and start time
         if duration is not None:
             self.duration = duration
