@@ -17,7 +17,6 @@ class Player:
         self.level = level
 
 player = Player("Emily", "astroem", 18, 1)
-#player.blah to call upon that specific player
 combined = f"{player.player_name}<|> {player.user}<|> {player.age}<|> {player.level}"
 
 with open("player.txt", "w") as file_:
